@@ -11,7 +11,7 @@ async function test(){
   
         var models = await getModels(brand);
         console.log(models)
-    var json = JSON.stringify(models);
+    var json = JSON.stringify(models)+", ";
         fs.appendFileSync('./models.json', json, 'utf8', (err) => {
 	  if (err) throw err;
 
