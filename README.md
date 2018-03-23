@@ -6,6 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Updates from Paul Lerner](#updates-from-paul-lerner)
 - [Introduction](#introduction)
 - [Objective - Workshop in 1 sentence](#objective---workshop-in-1-sentence)
 - [How to do that?](#how-to-do-that)
@@ -41,6 +42,10 @@ npm start
 to start the application.   
 Now you can go to your favorite browser on http://localhost:9292/, beware sensitive people because it's very ugly !
 
+If you want to re-fetch the car data from caradisiac RUN
+```
+node app/routes/getcars.js
+```
 ## Introduction
 
 [caradisiac.com](http://www.caradisiac.com/fiches-techniques) provides a tone of technical records related to car specification.
