@@ -20,6 +20,26 @@
 - [Licence](#licence)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+## Updates from Paul Lerner
+
+In order to run this app, clone or download this repo
+RUN
+```
+npm install
+```
+in order to install the necessary dependencies.
+
+If it's the first time you run this app you should RUN
+```
+node app/routes/create.js
+```
+in order to create the index (sorry about that, you only have to do it once)  
+Once the index is created you can run
+```
+npm start
+```
+to start the application.   
+Now you can go to your favorite browser on http://localhost:9292/, beware sensitive people because it's very ugly !
 
 ## Introduction
 
